@@ -19,7 +19,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
-  <meta name="theme-color" content="#1d201d">
+  <meta name="theme-color" content="#42222f">
   
   <link rel="stylesheet" href="/css/main.css" />
   <script defer src="/js/alpine.min.js"></script>
@@ -33,15 +33,15 @@
   
   <header>
     <a href="#home">
-      <img src="/assets/logo.svg"/>
-      <span>FlashCart</span>
+      <img src="/assets/logo.png"/>
+      <span></span>
     </a>
   </header>
   
   <main id="home" x-show="route=='home'">
   
-    <section>
-      <h2>Quick and easy shopping cart template</h2>
+    <section class="hero">
+      <img src="/assets/logo.png" class="banner"/>
     </section>
     
     <section>
@@ -74,6 +74,27 @@
       </template>  
     </section>
     
+    <section>
+      <h2>About Us</h2>
+      <p>
+        We started AGATYA with the intent to make the best 
+        organic / natural products that are not sold at a 
+        highly inflated price and is affordable. Being from the 
+        farming industry we source the best quality raw 
+        materials directly from the farmers. That way we know 
+        what goes into growing the raw materials that we use.
+      </p>
+      <h2>Contact Us</h2>
+      <p>
+        <a href="mailto:contact@agatya.in">
+          <b>Email:</b> <u>contact@agatya.in</u>
+        </a>
+        <br>
+        <a href="https://wa.me/917795526881">
+          <b>WhatsApp:</b> <u>+917795526881</u>
+        </a>  
+      </p>
+    </section>
   </main>
   
   <main id="checkout" x-show="route=='checkout'">
